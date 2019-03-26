@@ -15,7 +15,7 @@ module.exports = {
   },
   module:
   {
-	  rules: [
+  rules: [
         {
           test: /\.js$/,
           exclude: /(node_modules|bower_components)/,
