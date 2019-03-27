@@ -50,4 +50,4 @@ See [AppsCurry Step 2](https://github.com/gsmart-in/AppsCurryStep2) where we add
 See the [complete article series here](http://blog.gsmart.in/es6-and-npm-modules-in-google-apps-script/).
 
 #### Disclaimers
-The author does not represent nor affiliated with Google. This is project is only for learning purposes.
+The author does not represent nor associated with Google in any way. This is project is only for learning purposes.
