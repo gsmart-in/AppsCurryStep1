@@ -22,23 +22,24 @@ clasp login
 
 Open terminal and clone this project.
 
-Then run this to create an Apps Script project 
+You have to create an Apps Script project to run this code.
 
 ```bash
 clasp create --type standalone --title "Apps Script with Webpack and babel"
 ```
 
-Then run
+Now build the project and upload to your newly created Apps Script project
 
 ```bash
 npm install
 npm run deploy
 ```
 
+
 ## Approach
 
 Google Apps Script expects to have some global functions in your code. For a standalone web app project, it is the doGet()
-function. you can see this function in server/api.js
+function. doGet() function renders the standalone web app's main page. You can see this function in server/api.js
 
 In server/lib.js, we have the advanced ES6 code. we use babel and webpack to cross compile lib.js and place it in the distribution. (see the webpack configutaion file) 
 We upload only the compiled bundle and api.js (api.js is uploaded unmodified)
