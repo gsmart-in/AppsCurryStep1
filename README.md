@@ -1,4 +1,5 @@
-# AppsCurryStep1
+# Using ES6 in Google Apps Script (example project)
+
 This is an example project where we use ES6 features in [Google Apps Script](https://en.wikipedia.org/wiki/Google_Apps_Script)
 
 This project uses webpack and babel to bundle ES6 code and then use the [clasp command line tool](https://github.com/google/clasp) to upload the project to your Google Account.
@@ -48,3 +49,5 @@ See [AppsCurry Step 2](https://github.com/gsmart-in/AppsCurryStep2) where we add
 
 See the [complete article series here](http://blog.gsmart.in/es6-and-npm-modules-in-google-apps-script/).
 
+#### Disclaimers
+The author does not represent nor affiliated with Google. This is project is only for learning purposes.
